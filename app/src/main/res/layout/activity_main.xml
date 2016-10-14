@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radiogroup_spoj_niespoj"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rodzaj_gruntu"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"/>
+
+        <RadioButton
+            android:background="#ffa8bd"
+            android:id="@+id/radiobutton_spoisty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/spoisty" />
+
+        <RadioButton
+            android:background="#ffa8bd"
+            android:id="@+id/radiobutton_niespoisty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/niespoisty" />
+    </RadioGroup>
+
+    <GridLayout
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/nazwa"/>
+
+        <Spinner
+            android:background="#ffa8bd"
+            android:layout_marginTop="10dp"
+            android:id="@+id/name_spinner"/>
+
+        <TextView
+            android:id="@+id/textViewTypWilg"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/typ"/>
+
+        <Spinner
+            android:background="#ffa8bd"
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinner_typWilg"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/Param_wiodacy"/>
+
+        <Spinner
+            android:background="#ffa8bd"
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinner_paramWiod"/>
+    </GridLayout>
+
+    <View
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <GridLayout
+        android:layout_marginLeft="5dp"
+        android:columnCount="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewPlastZag"
+            android:textColor="@android:color/black"
+            android:text="@string/stopie_plastyczno_ci_gruntu_il"/>
+
+        <TextView
+            android:id="@+id/numer1"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/k_t_tarcia_wewn_trznego"/>
+
+        <TextView
+            android:id="@+id/numer2"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/g_sto_w_a_ciwa_ps_t_m3"/>
+
+        <TextView
+            android:id="@+id/numer3"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/g_sto_obj_to_ciowa_p_t_m3"/>
+
+        <TextView
+            android:id="@+id/numer4"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/wilgotno_naturalna_wn"/>
+
+        <TextView
+            android:id="@+id/numer5"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/modu_pierw_odkszta_cenia_gruntu_eo_kpa"/>
+
+        <TextView
+            android:id="@+id/numer6"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/edom_modu_ci_liwo_ci_pierwotnej_mo_kpa"/>
+
+        <TextView
+            android:id="@+id/numer7"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="@string/edom_modu_ci_liwo_ci_wt_rnej_m_kpa"/>
+
+        <TextView
+            android:id="@+id/numer8"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+        <TextView
+            android:id="@+id/spojnoscText"
+            android:textColor="@android:color/black"
+            android:text="@string/sp_jno_gruntu_cu_kpa"/>
+
+        <TextView
+            android:id="@+id/spojnoscLiczba"
+            android:textColor="@android:color/black"
+            android:text="12345"/>
+
+    </GridLayout>
+
+    <View
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

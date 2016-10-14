@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Android GeoCalk</string>
+    <string name="spoisty">Spoisty</string>
+    <string name="niespoisty">Niespoisty</string>
+    <string name="rodzaj_gruntu">Rodzaj gruntu:</string>
+    <string name="nazwa">Nazwa Gruntu:</string>
+    <string name="typ">Typ Gruntu:</string>
+    <string name="wilg">Wilgotność Gruntu:</string>
+    <string name="Param_wiodacy">Parametr wiodący:</string>
+    <string name="stopie_plastyczno_ci_gruntu_il">Stopień plastyczności gruntu, IL [-]:</string>
+    <string name="stopie_zageszczenia_ci_gruntu_il">Stopień zagęszczenia gruntu, Id [-]:</string>
+    <string name="k_t_tarcia_wewn_trznego">Kąt tarcia wewnętrznego, ø[º]:</string>
+    <string name="g_sto_w_a_ciwa_ps_t_m3">Gęstość właściwa, ps{t/m3}:</string>
+    <string name="g_sto_obj_to_ciowa_p_t_m3">Gęstość objętościowa, p[t/m3]:</string>
+    <string name="wilgotno_naturalna_wn">Wilgotność naturalna, Wn{%}:</string>
+    <string name="modu_pierw_odkszta_cenia_gruntu_eo_kpa">Moduł pierw. odkszt. gruntu, Eo[kPa]:</string>
+    <string name="edom_modu_ci_liwo_ci_pierwotnej_mo_kpa">Edom. moduł ściśliw. pierw., Mo{kPa}:</string>
+    <string name="edom_modu_ci_liwo_ci_wt_rnej_m_kpa">Edom. moduł ściśliw. wtórnej, M{kPa}:</string>
+    <string name="sp_jno_gruntu_cu_kpa">Spójność gruntu, Cu{kPa}:</string>
+    <string-array name="nazwa_gruntu_spoistego">
+        <item>żwir gliniasty</item>
+        <item>pospółka gliniasta</item>
+        <item>piasek gliniasty</item>
+        <item>pył piaszczysty</item>
+        <item>pył</item>
+        <item>glina piaszczysta</item>
+        <item>glina</item>
+        <item>glina pylasta</item>
+        <item>glina piaszczysta zwięzła</item>
+        <item>glina zwięzła</item>
+        <item>glina pylasta zwięzła</item>
+        <item>ił piaszczysty</item>
+        <item>ił</item>
+        <item>ił pylasty</item>
+    </string-array>
+    <string-array name="typ_gruntu_spaistego">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="parametr_wiodacy_spoisty">
+        <item>stopień plastyczności</item>
+        <item>kąt tarcia wewnętrznego</item>
+        <item>spójność</item>
+    </string-array>
+    <string-array name="nazwa_gruntu_niespoistego">
+        <item>żwir</item>
+        <item>pospółka</item>
+        <item>piasek gruby</item>
+        <item>piasek średni</item>
+        <item>piasek drobny</item>
+        <item>piasek pylasty</item>
+        <item>piasek próchniczy</item>
+    </string-array>
+    <string-array name="wilgotnosc_gruntu">
+        <item>mało wilgotne</item>
+        <item>wilgotne</item>
+        <item>mokre</item>
+    </string-array>
+    <string-array name="parametr_wiodacy_niespoisty">
+        <item>stopień zagęszczenia</item>
+        <item>kąt tarcia wewnętrznego</item>
+    </string-array>
+</resources>
